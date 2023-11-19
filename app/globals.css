@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-gradient {
+  background: transparent linear-gradient(128deg, #2727f5 0%, #001671 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.hover-gradient {
+  background: transparent
+    linear-gradient(
+      90deg,
+      var(--unnamed-color-040404) 0%,
+      #040404fa 21%,
+      #04040400 100%
+    )
+    0% 0% no-repeat padding-box;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
